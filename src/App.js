@@ -128,8 +128,8 @@ const App = () => {
               fontFamily={"Work Sans"}
               fontWeight={400}
               fontSize={"18px"}
-              py={"17px"}
-              px={"15px"}
+              py={"10px"}
+              px={"10px"}
               my={"10px"}
             >
               {" "}
@@ -148,8 +148,8 @@ const App = () => {
               fontFamily={"Work Sans"}
               fontWeight={400}
               fontSize={"18px"}
-              py={"17px"}
-              px={"15px"}
+              py={"10px"}
+              px={"10px"}
               my={"10px"}
             >
               {" "}
@@ -168,8 +168,8 @@ const App = () => {
               fontFamily={"Work Sans"}
               fontWeight={400}
               fontSize={"18px"}
-              py={"17px"}
-              px={"15px"}
+              py={"10px"}
+              px={"10px"}
               my={"10px"}
             >
               What is a DDoS attack and how can it affect cryptocurrency
