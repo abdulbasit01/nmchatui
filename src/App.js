@@ -191,6 +191,7 @@ const App = () => {
           width={"650px"}
           height={'60px'}
           px={"10px"}
+          border="2px"
           mb={'10px'}
         >
           <Input
