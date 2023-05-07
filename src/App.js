@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box } from "@chakra-ui/react";
+import { Box, Textarea } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
 import { Heading } from "@chakra-ui/react";
 import Send from "./components/send";
@@ -164,6 +164,8 @@ const App = () => {
                     py={"10px"}
                     px={"20px"}
                     my={"5px"}
+                    color={"#B6B6C3"}
+
                   >
                     {" "}
                     {text.q}
@@ -172,7 +174,7 @@ const App = () => {
                 <Box>
                   {text?.a && <>
                     <Box
-                      bg="#202027"
+                      bg={"#353541"}
                       borderTopRadius={"8px"}
                       display={"flex"}
                       justifyContent={"space-between"}
@@ -180,23 +182,27 @@ const App = () => {
                       mt="2"
                       mx={"auto"}
                       px="3"
-                      py="1"
+                      py="4"
                       width={"755px"}
                     >
                       <Box></Box>
                       <Box><Copy /></Box>
                     </Box>
                     <Text
-                      bg={"#000"}
+                      bg={"#353541"}
                       mx={"auto"}
                       borderBottomRadius={"8px"}
                       width={"755px"}
                       py="1"
                       px="3"
+                      color={"#B6B6C3"}
                       className="newrespo"
                     >
 
-                      {text?.a ?? text.a}
+                      <Textarea width="full" readOnly border={0} rows={15}
+                        css={{ "&::-webkit-scrollbar": { display: "none" } }}
+                        value={text?.a ?? text.a} />
+
                     </Text>
                   </>}
                 </Box>
