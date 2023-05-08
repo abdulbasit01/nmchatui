@@ -2,3 +2,23 @@
   background: linear-gradient(90deg, #2a2a2d 21px, transparent 1%) center, linear-gradient(#2a2a2d 21px, transparent 1%) center, #a799cc !important;
   background-size: 22px 22px !important;
 }
+
+textarea {
+  width: 100%;
+  animation: typing 5s steps(22), blink .5s step-end infinite alternate;
+  white-space: wrap;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
