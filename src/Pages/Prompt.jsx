@@ -69,7 +69,8 @@ const Prompt = () => {
                                     bg={"#3F3F4C"}
                                     mx={"auto"}
                                     borderRadius={"8px"}
-                                    width={"900px"}
+                                    width={"950px"}
+                                    maxWidth={"950px"}
                                 >
                                     {" "}
                                     <Text
@@ -128,8 +129,8 @@ const Prompt = () => {
                         py="3"
                         mx={"auto"}
                         borderRadius={"8px"}
-                        width={"900px"}
-                        mxWidth={"900px"}
+                        width={"950px"}
+                        mxWidth={"950px"}
                         justifyContent={"space-between"}
 
                     >
@@ -262,7 +263,7 @@ const Prompt = () => {
                     bg={"#353541"}
                     borderRadius={"12px"}
                     mx={"auto"}
-                    width={"700px"}
+                    width={"800px"}
                     height={'60px'}
                     px={"10px"}
                 >
